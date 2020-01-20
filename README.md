@@ -42,7 +42,7 @@ suivons ensemble l'installation :runner:
 
   * ```<balise />```: balises orphelines (on ne les insère qu'en un seul exemplaire), elles permettent d'insérer un élément à un endroit précis (par exemple une image).
 
-* Les balises sont parfois accompagnées d'attributs pour donner des indications supplémentaires (exemple :<image nom="photo.jpg" />).
+* Les balises sont parfois accompagnées d'attributs pour donner des indications supplémentaires (exemple : ```<image nom="photo.jpg" />```).
 
 * Une page web est constituée de deux sections principales : un en-tête (<head>) et un corps (<body>).
 
@@ -50,6 +50,20 @@ suivons ensemble l'installation :runner:
 
 * **les commentaire** : on est pas oblige de les utiliser mais ils sont tres utile pour nous retrouver dans notre code car c'est du texte qui n'a aucun impact sur votre code source.
 **la syntaxe d'un commentaire html** : ```<!-- Ceci est un commentaire -->```
+
+  ## structure d'une page html
+  
+  ```
+  <!DOCTYPE html>
+  <html>
+  <head>
+      <title></title>
+  </head>
+  <body>
+
+  </body>
+  </html>
+  ```
 
   ## les paragraphes
   
